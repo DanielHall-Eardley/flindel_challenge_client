@@ -1,0 +1,18 @@
+.product {
+  border: solid 1px pink;
+  padding: .6rem;
+  border-radius: 5px;
+  display: flex;
+}
+
+.product:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.name {
+  margin-right: auto;
+}
+
+.quantity {
+  margin-left: 1rem;
+}
